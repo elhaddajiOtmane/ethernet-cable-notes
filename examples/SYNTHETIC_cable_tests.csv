@@ -1,0 +1,3 @@
+cable_id,length_m,cable_category,standard,tester,result,notes
+LAB-01,2,Cat6,T568B,Example tester,PASS,Illustrative only
+LAB-02,3,Cat6,T568B,Example tester,FAIL,Illustrative open conductor
