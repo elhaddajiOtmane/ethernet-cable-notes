@@ -14,6 +14,14 @@ T568B (pins 1–8): white/orange, orange, white/green, blue, white/blue, green, 
 python3 scripts/cable_report.py examples/SYNTHETIC_cable_tests.csv
 ```
 
+## T568A and crossover cables
+
+T568A (pins 1-8): white/green, green, white/orange, blue, white/blue, orange, white/brown, brown.
+
+- Straight-through: the same scheme on both ends (A/A or B/B) - the normal patch cable.
+- Crossover: T568A on one end, T568B on the other - swaps the green and orange pairs so transmit lands on receive. Used to link two similar devices directly (switch-to-switch, PC-to-PC) on older gear.
+- Most modern switches and NICs have Auto MDI-X and sort this out automatically, but the pinouts still matter when a cable tester shows a split pair or a miswire.
+
 ## Reference photos
 [Ethernet cables on Wikimedia Commons](https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=ethernet%20cable) · [RJ45 connectors](https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=RJ45%20connector)
 
